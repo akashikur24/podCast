@@ -1,0 +1,32 @@
+@media only screen and (max-width: 700px) {
+  title {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .ep-title {
+    font-size: 15px;
+  }
+}
+.delete-Icon {
+  cursor: pointer;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+.delete-Icon span {
+  width: 100%;
+}
+.delete-Icon:hover {
+  color: var(--theme);
+  background-color: var(--white);
+  transition: all 1s;
+}
+.btn-flx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
